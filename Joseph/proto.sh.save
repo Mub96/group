@@ -1,0 +1,2 @@
+cat /etc/protocols | grep -w 'udp\|idrp\|skip\|ipip' > pro.txt
+cat pro.txt | grep ^[0
